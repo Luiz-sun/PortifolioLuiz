@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>LHR</h1>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="cabecalho">
+            <nav id="menu-principal">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="sobre-mim.html">Sobre mim</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="tech.html">Tech</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/luiz-henrique-132ba6292/"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/Luiz-sun"><img src="github.png" alt="GitHub"></a>
+        </div>
+    </header> 
+        <nav>
+            <div class="home">
+                <div class="text">
+                    Olá,me chamo
+                    <br><span>Luiz Henrique </span><br>
+                    Desenvolvedor
+                    front-end <br> & back-end
+                </div>
+                <div class="imagem">
+                    <div class="cubo-magico" aria-label="Cubo mágico girando em 3D">
+                        <div class="face frente">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="face tras">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="face direita">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="face esquerda">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="face topo">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="face baixo">
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre-mim">
+                <div class="sobre-text">
+                    <h2>Sobre mim</h2>
+                    <p>Estudante de Ciência da Computação em busca da minha primeira oportunidade de estágio em
+                        desenvolvimento de software (Back-End/Front-End). Tenho sólida base em lógica de programação,
+                        APIs e bancos de dados, sempre focado em escrever código limpo. Busco um ambiente onde possa
+                        aprender com a equipe, encarar desafios práticos e evoluir profissionalmente.</p>
+                </div>
+                <div class="sobre-code">
+                    <pre><code id="codigo-digitando"></code><span class="cursor-code"></span></pre>
+                </div>
+            </div>
+            <div class="projetos">
+                <h1>Projetos</h1>
+                <div class="projetos-grid">
+                    <article class="projeto-card">
+                        <div class="projeto-topo">
+                            <span class="projeto-tag">GitHub</span>
+                            <span class="projeto-status">Projeto</span>
+                        </div>
+                        <h2>Chimera</h2>
+                        <p>Projeto publicado no GitHub. Acesse o repositório para ver o código, estrutura e detalhes de implementação.</p>
+                        <a href="https://github.com/Arthur260907/Chimera.git" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+                    </article>
+                    <article class="projeto-card">
+                        <div class="projeto-topo">
+                            <span class="projeto-tag">GitHub</span>
+                            <span class="projeto-status">POO + API</span>
+                        </div>
+                        <h2>POO com API</h2>
+                        <p>Projeto focado em Programação Orientada a Objetos com integração de API, organizado para praticar classes, métodos e consumo de dados.</p>
+                        <a href="https://github.com/Luiz-sun/Poo.git" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+                    </article>
+                    <article class="projeto-card">
+                        <div class="projeto-topo">
+                            <span class="projeto-tag">GitHub</span>
+                            <span class="projeto-status">Python</span>
+                        </div>
+                        <h2>Automação Iniciante</h2>
+                        <p>Projeto de automação iniciante em Python, feito para praticar scripts, lógica e tarefas automatizadas do dia a dia.</p>
+                        <a href="https://github.com/Luiz-sun/Automa-o.git" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+                    </article>
+                </div>
+            </div>
+            <div class="tech">
+                <h1>Tecnologias</h1>
+                <div class="tecnologias">
+                    <article class="tech-card" data-nivel="90">
+                        <div class="tech-topo">
+                            <span class="tech-icon">H</span>
+                            <div class="tech-info">
+                                <h2>HTML</h2>
+                                <span>Avançado</span>
+                            </div>
+                        </div>
+                        <p>Estrutura semântica, formulários, acessibilidade básica e organização de páginas.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 4.5 de 5">
+                            <span>★★★★<span class="estrela-vazia">★</span></span>
+                            <strong>90%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                    <article class="tech-card" data-nivel="90">
+                        <div class="tech-topo">
+                            <span class="tech-icon">C</span>
+                            <div class="tech-info">
+                                <h2>CSS</h2>
+                                <span>Avançado</span>
+                            </div>
+                        </div>
+                        <p>Layouts responsivos, animações, grid, flexbox e composição visual para interfaces.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 4.5 de 5">
+                            <span>★★★★<span class="estrela-vazia">★</span></span>
+                            <strong>90%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                    <article class="tech-card" data-nivel="35">
+                        <div class="tech-topo">
+                            <span class="tech-icon">JS</span>
+                            <div class="tech-info">
+                                <h2>JavaScript</h2>
+                                <span>Básico</span>
+                            </div>
+                        </div>
+                        <p>Manipulação do DOM, eventos, lógica, consumo de dados e interações dinâmicas.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 2 de 5">
+                            <span>★★<span class="estrela-vazia">★★★</span></span>
+                            <strong>35%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                    <article class="tech-card" data-nivel="88">
+                        <div class="tech-topo">
+                            <span class="tech-icon">C#</span>
+                            <div class="tech-info">
+                                <h2>C#</h2>
+                                <span>Avançado</span>
+                            </div>
+                        </div>
+                        <p>Programação orientada a objetos, classes, métodos, estruturas e boas práticas.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 4.4 de 5">
+                            <span>★★★★<span class="estrela-vazia">★</span></span>
+                            <strong>88%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                    <article class="tech-card" data-nivel="45">
+                        <div class="tech-topo">
+                            <span class="tech-icon">PY</span>
+                            <div class="tech-info">
+                                <h2>Python</h2>
+                                <span>Em evolução</span>
+                            </div>
+                        </div>
+                        <p>Scripts, automações iniciais, lógica de programação e resolução de problemas.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 2.5 de 5">
+                            <span>★★<span class="estrela-vazia">★★★</span></span>
+                            <strong>45%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                    <article class="tech-card" data-nivel="45">
+                        <div class="tech-topo">
+                            <span class="tech-icon">C</span>
+                            <div class="tech-info">
+                                <h2>C</h2>
+                                <span>Em evolução</span>
+                            </div>
+                        </div>
+                        <p>Fundamentos, ponteiros, estruturas, memória e base para entender baixo nível.</p>
+                        <div class="tech-avaliacao" aria-label="Avaliação 2.5 de 5">
+                            <span>★★<span class="estrela-vazia">★★★</span></span>
+                            <strong>45%</strong>
+                        </div>
+                        <div class="tech-barra"><span></span></div>
+                    </article>
+                </div>
+            </div>
+            <div class="contato">
+                <h1>Contato</h1>
+                <p>Entre em contato comigo através das redes sociais ou envie uma mensagem:</p>
+                <form class="contato-form" action="mailto:luizhenriqueribeiroleite6@gmail.com" method="post" enctype="text/plain">
+                    <div class="campo-form">
+                        <label for="email">Seu e-mail</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="campo-form">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit">Enviar mensagem</button>
+                </form>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/luiz-henrique-132ba6292/"><img src="linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://github.com/Luiz-sun"><img src="github.png" alt="GitHub"></a>
+                </div>
+            </div>
+        </nav>
+        <footer>
+            <p>&copy; 2026 Luiz Henrique. Todos os direitos reservados.</p>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
